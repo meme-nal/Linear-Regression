@@ -1,0 +1,10 @@
+dataset:
+  data_path: "./data/processed/Student_Performance_processed.csv"
+  train_size: 0.7
+
+model:
+  type: "LinearRegressionAS"
+  loss: None
+
+evaluation: "RMSE"
+
