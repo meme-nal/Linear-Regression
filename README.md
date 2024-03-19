@@ -1,6 +1,9 @@
 # 6 different models of Linear Regression
 Introduction to linear regression machine learning models
 
+I added a new line!
+
+
 ## Prerequirements
 
 Before starting this project you need there python packages:
