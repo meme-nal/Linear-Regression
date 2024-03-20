@@ -1,0 +1,11 @@
+model:
+  type: "LinearRegressionGDL1"
+
+  loss: "MSE_L1"
+
+  lr: 0.01
+  epochs: 1500
+  weights_init: "zeros"
+  lambda1: 0.001
+
+evaluation: "RMSE"
