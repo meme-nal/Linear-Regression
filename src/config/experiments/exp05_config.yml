@@ -1,0 +1,12 @@
+model:
+  type: "LinearRegressionGDElasticNet"
+
+  loss: "MSE_ELASTICNET"
+
+  lr: 0.01
+  epochs: 1500
+  weights_init: "zeros"
+  lambda1: 0.001
+  lambda2: 0.0001
+
+evaluation: "RMSE"
