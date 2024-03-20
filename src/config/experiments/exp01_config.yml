@@ -1,0 +1,11 @@
+# In this experiment i wanna see the results with using analitical solution and L2-regularization
+
+dataset:
+  data_path: "./data/raw/Student_Performance.csv"
+  train_size: 0.7
+
+model:
+  type: "LinearRegressionASL2"
+  lambda: 10 # coefficient of L2-regularization
+
+evaluation: "RMSE"
