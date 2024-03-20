@@ -1,0 +1,10 @@
+model:
+  type: "LinearRegressionGD"
+
+  loss: "MSE"
+
+  lr: 0.01
+  epochs: 1000
+  weights_init: "zeros"
+
+evaluation: "RMSE"
